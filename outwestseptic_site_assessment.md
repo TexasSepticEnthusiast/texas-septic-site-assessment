@@ -1,139 +1,102 @@
-# Out West Septic — Site Assessment Worksheet Spec
+# Out West Septic manual site-information worksheet
 
-**Out West Septic — outwestseptic.com**
-**TCEQ OSSF Installer I | OS0041298 | Lone Camp, TX**
-**Owner: James "Tanner" Coupland | 940.452.0598**
-**Serving Palo Pinto County & Rural North Texas**
+Copy this blank worksheet into a private project record. These fields describe a possible future `OutWestSepticSiteAssessment`; no executable class, workbook or design engine is supplied.
 
-Build spec for `outwestseptic_site_assessment.xlsm`. The site assessment is what Tanner runs **before** quoting a new install — same questions every time, pre-loaded with North Texas county and soil presets.
+The associated project is [Out West Septic](https://outwestseptic.com). The worksheet organizes information for a responsible professional; it does not perform or replace a site evaluation. TCEQ's [permit guidance](https://www.tceq.texas.gov/permitting/ossf/ossfpermits.html) directs applicants to the applicable authority and a qualified site evaluator or professional engineer. Sources below were accessed 2026-10-18.
 
-## Sheet 1 — Property
+## 1. Property and intended use
 
-| Cell | Label | Input |
-|------|-------|-------|
-| B2 | OUT WEST SEPTIC — Site Assessment Worksheet | (header) |
-| B4 | Property address | text |
-| B5 | County | dropdown |
-| B6 | Acreage | number |
-| B7 | Existing structure? | Yes/No |
-| B8 | Number of bedrooms (planned) | integer |
-| B9 | Water source | dropdown: Private well, Community water, hauled |
-| B10 | Topography | dropdown: Flat, Gently rolling, Rolling, Steep |
-| B11 | Existing trees in build area? | Yes/No |
-| B12 | Easements on property? | Yes/No |
-| B13 | Customer name | text |
-| B14 | Customer phone | text |
-| B15 | Date of assessment | date |
-| B16 | Assessed by | text (default Tanner Coupland) |
+| Field | Value to supply | Evidence / recorded by / date |
+|---|---|---|
+| Private project ID and revision | | |
+| Property/parcel reference | | |
+| County and municipality, separately | | |
+| Applicable OSSF authority and jurisdiction evidence | | |
+| Current and proposed use / structures / occupancy basis | | |
+| Building area and bedrooms, if relevant | | |
+| Water source and available records | | |
+| Existing system / permit / plan references | | |
+| Property boundaries, easements and access records | | |
+| Assessment purpose, date and responsible professional | | |
 
-## Sheet 2 — Soil & Site
+Property size, bedroom count or county alone does not establish a design flow or permit exemption. Record boundary and jurisdiction evidence instead of inferring them from a town name or distance estimate.
 
-| Cell | Label | Input |
-|------|-------|-------|
-| B2 | Predominant soil series | dropdown — see Soil Presets |
-| B3 | Texture observed | dropdown: sand, sandy loam, loam, silt loam, clay loam, silty clay, clay, rocky/limestone |
-| B4 | Depth to bedrock (in) | integer |
-| B5 | Depth to water table observed (in) | integer or "not observed" |
-| B6 | Estimated perc rate (min/in) | number — auto-filled from Soil Presets, editable |
-| B7 | Slope (%) | number |
-| B8 | Slope direction (relative to house) | dropdown: away, toward, side |
-| B9 | Surface drainage OK | Pass/Fail |
-| B10 | Surface water features within 50 ft | dropdown: None, Stock tank, Creek, Pond, Lake, River |
-| B11 | Notes on soil | text |
+## 2. Desk research: mapped information
 
-**Soil preset table (Sheet 2 lookup, columns E-K):**
+| Research record | Value to supply | Source/version / date retrieved / limitation |
+|---|---|---|
+| USDA survey area and map-unit key(s) | | |
+| Mapped components and descriptions | | |
+| Area-of-interest/map reference | | |
+| Other mapping or records reviewed | | |
+| Questions for field evaluation | | |
 
-| Series | Texture | Drainage | Perc (min/in) | Bedrock (in) | Suitable? | Counties |
-|--------|---------|----------|---------------|--------------|-----------|----------|
-| Cisco | sandy loam | well | 8 | 60 | good | Palo Pinto, Eastland |
-| Thurber | clay | mod well | 45 | 36 | marginal | Palo Pinto, Stephens |
-| Bonti-Exray | rocky/limestone | excessively | 12 | 14 | shallow | Palo Pinto, Erath |
-| Frio | silty clay loam | somewhat poor | 25 | 48 | bottomland | Palo Pinto, Hood |
-| Truce | clay loam | mod well | 20 | 42 | workable | Palo Pinto, Stephens |
-| Paluxy | sandy | well | 10 | 60 | good (depth to water) | Hood |
-| Windthorst | clay | mod well | 40 | 30 | marginal | Hood, Erath |
-| Duffau | sandy loam | well | 12 | 48 | good | Hood, Erath |
+[USDA Web Soil Survey](https://websoilsurvey.nrcs.usda.gov/app/) provides mapped soil information for planning and notes that engineering applications can require onsite investigation. Record it as mapped information. Do not copy a soil-series name into a measured texture, perc rate, bedrock depth, loading rate or suitability decision.
 
-## Sheet 3 — System Design
+## 3. Professional field-evaluation evidence
 
-| Cell | Label | Input/Calc |
-|------|-------|------------|
-| B2 | Design flow (gpd) | formula: `=B8*150` (bedrooms × 150 gpd) |
-| B3 | Recommended tank size (gal) | formula: references tank sizer tier (1000/1250/1500/etc.) |
-| B4 | Required absorption area (sq ft) | formula: references perc table |
-| B6 | Lateral length (ft) | integer (default 100) |
-| B7 | Lateral count | formula: absorption / lateral sq ft |
-| B8 | Bedrooms | ref to Property sheet |
-| B9 | Perc rate (min/in) | ref to Soil sheet |
-| B10 | Trench width (in) | 36 default |
-| B11 | Trench depth (in) | 24 default |
-| B12 | Trench spacing (ft) | 6 default |
-| B14 | Total sq ft installed | formula |
-| B15 | Total run length (ft) | formula |
-| B16 | Footprint width (ft) | formula |
+Repeat rows for each evaluation location or horizon. The responsible professional selects appropriate methods; this template provides no excavation, sampling or test procedure.
 
-## Sheet 4 — Setback Checklist
+| Observation ID | Location / horizon reference | Observed property | Status | Value | Unit | Method / observation limit | Evidence ID | Evaluator / date |
+|---|---|---|---|---|---|---|---|---|
+| | | | | | | | | |
+| | | | | | | | | |
 
-TCEQ Chapter 285 minimums. Auto-fail if any "No" with critical setback flag.
+Record the status as observed, reported, not observed to a stated limit, not evaluated, not applicable with reason, or unknown. Separate a measured zero from an unknown value. For depth observations, record the investigation limit and reference surface. Do not turn "not encountered" into a precise depth.
 
-| Setback | Required (ft) | Met? |
-|---------|---------------|------|
-| Private well | 100 | Yes/No |
-| Public water supply | 150 | Yes/No |
-| Property line | 50 | Yes/No |
-| Foundation | 10 | Yes/No |
-| Surface water | 50 | Yes/No |
-| Subsurface drain | 10 | Yes/No |
-| Utility lines | 5 | Yes/No |
-| Swimming pool | 15 | Yes/No |
+Potential topics for the responsible professional include soil profile, restrictive horizons, water-related observations, slope and drainage. No list here substitutes for the applicable evaluation requirements.
 
-## Sheet 5 — Cost Estimate
+## 4. Feature and separation review
 
-| Cell | Label | Calc |
-|------|-------|------|
-| B2 | Tank + install | formula from base |
-| B3 | Drainfield install | formula from base |
-| B4 | Permit fee | input |
-| B5 | Site prep (dirt work) | input |
-| B6 | Rock adder (if encountered) | input |
-| B7 | Subtotal | sum |
-| B8 | Texas sales tax (8.25% default) | calc |
-| B9 | Total | sum |
+Create one row for each relevant **system component and site feature pair**. A single number for "the system" may omit distinctions in the applicable criteria.
 
-## Sheet 6 — Quote Letter Output
+| Component | Feature / location | Required criterion and unit | Exact rule/table/footnote or local condition; edition | Observed/planned separation and unit | Measurement basis / evidence ID | Reviewer / unresolved question |
+|---|---|---|---|---|---|---|
+| | | | | | | |
+| | | | | | | |
 
-Auto-generated print-ready summary that Tanner can hand to the homeowner on-site.
+Consider the features identified by the responsible evaluator and authority, which may include boundaries, structures, water supplies and water features. Do not infer a required distance from this example list. Required values remain blank until the correct current source and applicable system configuration are identified. No automatic pass/fail result is produced.
 
-| Field | Source |
-|-------|--------|
-| Customer name | Property B13 |
-| Property address | Property B4 |
-| System spec | System Design summary |
-| Price | Cost Estimate total |
-| Payment terms | text |
-| Validity | 30 days from issue |
-| Notes | free-form |
-| Signature line | Tanner |
+## 5. Design input and decision register
 
-## Validations (dropdowns)
+| Input / decision | Value and unit to supply | Source and applicable configuration | Supplied/reviewed by and date | Unresolved dependency |
+|---|---|---|---|---|
+| Design wastewater flow, Q (gallons/day) | | | | |
+| Disposal method / system configuration | | | | |
+| Hydraulic loading/application rate, Ra (gallons/square foot/day), if applicable | | | | |
+| Tank liquid capacity (gallons), if specified | | | | |
+| Disposal area (square feet), if specified | | | | |
+| Approved layout / component and product documents | | | | |
+| Planning-material and authority review status | | | | |
 
-- **County:** Palo Pinto County TX, Hood County TX, Erath County TX, Stephens County TX, Young County TX, Jack County TX, Eastland County TX
-- **Topography:** Flat, Gently rolling, Rolling, Steep
-- **Water source:** Private well, Community water, hauled
-- **Soil series:** see Soil Presets table above
+Values are entered from identified professional/planning sources. There is no bedrooms-times-150 default, soil/perc lookup table, stock tank recommendation or trench geometry formula. If an external calculator is used to check arithmetic, retain its version, inputs, output and source edition; a result does not supply missing design decisions.
 
-## Branding
+TCEQ's [permit guidance](https://www.tceq.texas.gov/permitting/ossf/ossfpermits.html) notes that local programs can be more stringent than statewide minimums. Record which current state and local criteria the professional actually applied.
 
-- Header (rows 1–2 every sheet): Out West Septic • TCEQ OSSF Installer I OS0041298 • outwestseptic.com • 940.452.0598
-- Footer: Serving Palo Pinto County & Rural North Texas • Lone Camp, TX
-- Title color: teal `#007787`; accents: orange `#cc5500`
+## 6. Evidence, questions and handoff
 
-## Print settings
+| Evidence ID | Document/photo/map/record | Source and date/version | Private location / related worksheet rows |
+|---|---|---|---|
+| | | | |
+| | | | |
 
-- Letter, portrait, fit to 1 page wide
-- Cover sheet has all key info on a single page
+| Open question | Needed evidence or decision | Responsible person / authority | Status and follow-up date |
+|---|---|---|---|
+| | | | |
+| | | | |
 
----
+- [ ] Property identity, intended use and authority evidence are recorded.
+- [ ] Mapped research is distinguished from field observations.
+- [ ] Missing and not-evaluated values remain explicit.
+- [ ] Criteria include their source, edition, units and relevant component.
+- [ ] Design values identify who supplied and reviewed them.
+- [ ] Unresolved questions accompany any handoff; no default is used to hide them.
 
-*Out West Septic — outwestseptic.com — 940.452.0598 — TCEQ OSSF Installer I OS0041298 — Lone Camp, TX*
-*Serving Palo Pinto County, Mineral Wells, Graford, Possum Kingdom Lake, and rural North Texas*
+| Handoff record | Value |
+|---|---|
+| Reviewer / role / date | |
+| Worksheet revision | |
+| Purpose and recipient of handoff | |
+| Remaining limitations and pending approvals | |
+
+Pricing and business terms belong in a separately reviewed proposal; this worksheet supplies neither. See [open decisions](OWNER_DECISIONS.md) before implementing automated assessment, design or quoting.

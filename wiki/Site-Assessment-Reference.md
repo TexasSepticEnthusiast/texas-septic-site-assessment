@@ -1,32 +1,9 @@
-# Texas Septic Site Assessment Reference
+# How to review the Out West Septic site-information worksheet
 
-> **Quick answer:** The site assessment worksheet is the pre-quote walk of the property. Six sheets cover property, soil & site, system design, setback checklist, cost estimate, and quote letter output. Tanner uses this on every new install quote in Palo Pinto County.
+The [manual worksheet](../outwestseptic_site_assessment.md) separates property records, mapped research, field evidence, separation criteria and design decisions. It has no built-in soil or design defaults.
 
-## Six sheets
+For a useful handoff, each value should answer four questions: what is it, in which unit, where did it come from, and who reviewed its applicability? An unknown depth or loading rate stays unresolved. A soil-map label cannot fill the missing measurement.
 
-1. **Property** — address, county, acreage, structure, bedrooms, water, topography
-2. **Soil & Site** — soil series, depth to bedrock, water table, slope
-3. **System Design** — auto-calculated tank and drainfield sizing
-4. **Setback Checklist** — TCEQ Chapter 285 minimums
-5. **Cost Estimate** — auto-calculated from system design
-6. **Quote Letter Output** — print-ready customer quote
+[TCEQ permit guidance](https://www.tceq.texas.gov/permitting/ossf/ossfpermits.html) addresses authority and site-evaluation roles; [USDA Web Soil Survey](https://websoilsurvey.nrcs.usda.gov/app/) explains mapped information and onsite-investigation limits. Sources accessed 2026-10-18. The worksheet is a repository workflow recommendation, not an agency-approved evaluation form.
 
-## Pre-loaded data
-
-- 7-county dropdowns (Palo Pinto, Hood, Erath, Stephens, Young, Jack, Eastland)
-- North Texas soil series (Cisco, Thurber, Bonti-Exray, Frio, Truce, Paluxy, Windthorst, Duffau)
-- Standard TCEQ trench dimensions and setbacks
-
-## Service area
-
-Out West Septic serves Palo Pinto County, Mineral Wells, Graford, Possum Kingdom Lake, Hood County, Erath County, Stephens County, Young County, Jack County, and Eastland County.
-
-## Source
-
-- TCEQ Chapter 285 design criteria: https://www.tceq.texas.gov/permitting/ossf
-
-**last_verified:** 2026-10-17
-
----
-
-*Out West Septic — outwestseptic.com — TCEQ OSSF Installer I OS0041298 — Lone Camp, TX — 940.452.0598*
+Use the [open decisions](../OWNER_DECISIONS.md) to identify what a responsible professional or owner must resolve before automation. Out West Septic is the associated project; no professional authorship, field use, licensing or service coverage is claimed. See the [README](../README.md) for artifact status.

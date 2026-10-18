@@ -1,35 +1,25 @@
-# Texas Septic Site Assessment
+# Out West Septic site-information worksheet
 
-Build spec for the Out West Septic site assessment worksheet. Forked from the [texas-septic-toolkit](https://github.com/TexasSepticEnthusiast/texas-septic-toolkit). Built by [Out West Septic](https://outwestseptic.com) in Lone Camp, TX. TCEQ OSSF Installer I, License OS0041298. Phone 940.452.0598.
+A manual intake worksheet for organizing site records, field-evaluation evidence and unresolved design questions for the [Out West Septic](https://outwestseptic.com) project.
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
-[![TCEQ OSSF](https://img.shields.io/badge/TCEQ-OSSF_Installer_I-007787)](https://www.tceq.texas.gov/permitting/ossf)
+**This repository contains Markdown only. It has no working XLSM, automatic design calculator or quote generator.** The [blank worksheet](outwestseptic_site_assessment.md) keeps mapped information, field observations, design inputs and professional decisions separate.
 
-## What this fork is
+## Use the worksheet
 
-A focused fork of the [texas-septic-toolkit](https://github.com/TexasSepticEnthusiast/texas-septic-toolkit), containing the build spec for the site assessment worksheet. Tanner uses this on every pre-quote site visit.
+1. Record property/use information and identify the applicable authority with evidence.
+2. Gather permits, plans and mapped soil research; keep map data separate from site findings.
+3. Have the responsible professional record evaluation evidence and applicable criteria.
+4. Track each unresolved question before carrying values into a design or quote.
 
-## What the workbook does
+No soil perc rate, bedrock depth, loading rate, setback, trench dimension, design flow, price or tax default is supplied. Unknown values stay unknown. Read the [review guide](wiki/Site-Assessment-Reference.md) and [open decisions](OWNER_DECISIONS.md).
 
-Six sheets covering the full pre-quote site evaluation:
+These are automated contributions requested for the Out West Septic project. This worksheet is not a licensed site evaluation, approved design or evidence of company field use. It asserts no business credentials or service coverage. Documentation focuses on Palo Pinto County and nearby rural communities; Parker and Tarrant counties are excluded. Keep completed customer records private.
 
-1. Property. Address, county, acreage, structure, bedrooms, water source, topography.
-2. Soil and Site. Soil series, texture, depth to bedrock, water table, perc rate, slope.
-4. System Design. Auto-calculated tank and drainfield sizing.
-5. Setback Checklist. TCEQ Chapter 285 minimums.
-6. Cost Estimate. Auto-calculated from system design.
-7. Quote Letter Output. Print-ready customer quote.
+## Files and reuse
 
-Pre-loaded with North Texas soil series (Cisco, Thurber, Bonti-Exray, Frio, Truce, Paluxy, Windthorst, Duffau) and the seven priority counties (Palo Pinto, Hood, Erath, Stephens, Young, Jack, Eastland).
+- [Manual worksheet and input definitions](outwestseptic_site_assessment.md)
+- [Review guide](wiki/Site-Assessment-Reference.md)
+- [Professional and owner decisions](OWNER_DECISIONS.md)
+- [MIT license and inherited notice](LICENSE)
 
-## Service area
-
-Out West Septic serves Palo Pinto, Hood, Erath, Stephens, Young, Jack, and Eastland counties. Mineral Wells, Graford, Possum Kingdom Lake.
-
-## License
-
-MIT. See [LICENSE](./LICENSE).
-
----
-
-Out West Septic, outwestseptic.com, 940.452.0598, TCEQ OSSF Installer I OS0041298, Lone Camp, TX
+No runtime is installed or tested here. Checks concern the actual document inventory, source links and blank recording workflow.
